@@ -4,8 +4,11 @@
   "description": "Landing page aplicando el aprendizaje acerca del asincronismo en Javascript junto con el uso de HTML y CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "author": "Santiago Lobo Ulloa lobo09.slu@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
